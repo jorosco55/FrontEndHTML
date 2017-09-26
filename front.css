@@ -1,0 +1,80 @@
+.header {
+    color: orangered;
+}
+
+/*  p:hover {
+    color: orange;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    border: 1px solid olivedrab;
+} */
+
+ /*  @media(max-width: 500px) {
+    p{
+        font-size: 50px;
+    }
+
+} */
+
+@media(min-width: 800px) {
+    #el {
+        font-size: 70px;
+    }
+}
+
+
+/*  body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Indie Flower', cursive;
+    }
+
+nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    }
+
+nav ul li {
+    display: block
+    }
+
+nav ul li > a {
+    text-decoratioin: none;
+    }
+
+nav ul li > a:hover {
+    text-decoration: underline;
+    }
+
+.navbar-background {
+    background-color: lightcyan;
+    }
+
+.navlink {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+    }
+
+.navlink.active {
+    color: red;
+    background-color: white;
+    } */
+
+
+/* Navigation bar styles end */
+
+/* Navigation bar styles end */

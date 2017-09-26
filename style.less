@@ -1,0 +1,54 @@
+
+
+@companyColor: red;
+
+.rounded-corners(@size) {
+    -moz-border-radius: @size;
+    -webkit-border-radius: @size;
+
+}
+
+
+#element-one {
+  color: @companyColor;
+  border: 2px solid black;
+  .rounded-corners(20px);
+
+}
+
+#element-two {
+  color: @companyColor;
+  border: 2px solid black;
+  .rounded-corners(10px)
+
+}
+
+
+
+
+form input {
+  background-color: yellow;
+}
+
+form button {
+  background-color: aqua;
+}
+
+/* Better way to write the code is to nest it
+form {
+    input {
+      background-color: yellow;
+      }
+      button {
+      background-color: aqua;
+      }
+  }
+ */
+
+@font-size: 14px;
+
+h1 {
+  font-size: @font-size + 10;
+  color: #0000f6;
+}
+
